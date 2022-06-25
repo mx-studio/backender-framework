@@ -1,0 +1,9 @@
+/.idea/
+/vendor/
+/tmp/
+/logs/
+/upload/
+/config.php
+/config.production.php
+/config.development.php
+*.log

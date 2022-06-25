@@ -1,0 +1,33 @@
+{
+  "name": "adjai/backender-framework",
+  "description": "Simple backend framework",
+  "version": "0.0.1",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "mx-studio",
+      "email": "bin_rob@mail.ru"
+    }
+  ],
+  "require": {
+    "adjai/backender": "0.0.72"
+  },
+  "autoload": {
+    "psr-4": {
+      "mx\\CLIUtils\\": "vendor/adjai/backender/cli"
+    }
+  },
+  "scripts": {
+    "composer-update": "composer-update.cmd",
+    "create-entity": "mx\\CLIUtils\\CLIUtils::createEntityScript",
+    "create-controller": "mx\\CLIUtils\\CLIUtils::createControllerScript",
+    "create-model": "mx\\CLIUtils\\CLIUtils::createModelScript",
+    "post-install-cmd": ["mx\\CLIUtils\\CLIUtils::postInstallCmd"],
+    "post-update-cmd": ["mx\\CLIUtils\\CLIUtils::postUpdateCmd"],
+    "post-root-package-install": ["mx\\CLIUtils\\CLIUtils::postRootPackageInstall"],
+    "post-package-install": ["mx\\CLIUtils\\CLIUtils::postPackageInstall"],
+    "post-package-update": ["mx\\CLIUtils\\CLIUtils::postPackageUpdate"]
+  }
+
+}
