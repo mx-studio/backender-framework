@@ -1,7 +1,7 @@
 {
   "name": "adjai/backender-framework",
   "description": "Simple backend framework",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "stable",
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "adjai/backender": "0.0.80"
+    "adjai/backender": "0.0.82"
   },
   "autoload": {
     "psr-4": {
