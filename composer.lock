@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86f0a1132bdbd33050fcd630a7c9fdd4",
+    "content-hash": "108d7b49041e99f1f57aa8ab7fc1c016",
     "packages": [
         {
             "name": "adjai/backender",
-            "version": "0.0.96",
+            "version": "0.0.97",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mx-studio/backender.git",
-                "reference": "88020065ee46e779c233eda53996cfedd0b4df1f"
+                "reference": "7770aa3589dfe5a69aa96c39429cff35cc682fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mx-studio/backender/zipball/88020065ee46e779c233eda53996cfedd0b4df1f",
-                "reference": "88020065ee46e779c233eda53996cfedd0b4df1f",
+                "url": "https://api.github.com/repos/mx-studio/backender/zipball/7770aa3589dfe5a69aa96c39429cff35cc682fb3",
+                "reference": "7770aa3589dfe5a69aa96c39429cff35cc682fb3",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             "description": "Simple backend",
             "support": {
                 "issues": "https://github.com/mx-studio/backender/issues",
-                "source": "https://github.com/mx-studio/backender/tree/0.0.96"
+                "source": "https://github.com/mx-studio/backender/tree/0.0.97"
             },
-            "time": "2023-04-03T16:33:03+00:00"
+            "time": "2023-04-03T16:35:55+00:00"
         },
         {
             "name": "firebase/php-jwt",
