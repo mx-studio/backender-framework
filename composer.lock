@@ -4,24 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e426667404fc8a38dbd6e0e78e082d9d",
+    "content-hash": "de583f7706cf700fb396abdfcdea50f9",
     "packages": [
         {
             "name": "adjai/backender",
-            "version": "0.0.80",
+            "version": "0.0.95",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mx-studio/backender.git",
-                "reference": "05e7055cf3f227dee7e185d2c090676844e39f01"
+                "reference": "749860fd8f80ed61bb51db092ad6fe2756e7a962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mx-studio/backender/zipball/05e7055cf3f227dee7e185d2c090676844e39f01",
-                "reference": "05e7055cf3f227dee7e185d2c090676844e39f01",
+                "url": "https://api.github.com/repos/mx-studio/backender/zipball/749860fd8f80ed61bb51db092ad6fe2756e7a962",
+                "reference": "749860fd8f80ed61bb51db092ad6fe2756e7a962",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+                "ext-mbstring": "*",
                 "firebase/php-jwt": "^5.5",
                 "phpmailer/phpmailer": "^6.5",
                 "rmccue/requests": "^2.0.2",
@@ -49,9 +50,9 @@
             "description": "Simple backend",
             "support": {
                 "issues": "https://github.com/mx-studio/backender/issues",
-                "source": "https://github.com/mx-studio/backender/tree/0.0.80"
+                "source": "https://github.com/mx-studio/backender/tree/0.0.95"
             },
-            "time": "2022-06-26T19:16:04+00:00"
+            "time": "2023-04-03T16:24:32+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -327,5 +328,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
