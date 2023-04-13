@@ -1,7 +1,7 @@
 {
   "name": "adjai/backender-framework",
   "description": "Simple backend framework",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "stable",
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "adjai/backender": "0.0.98"
+    "adjai/backender": "0.0.103"
   },
   "autoload": {
     "psr-4": {
@@ -27,7 +27,8 @@
     "post-update-cmd": ["mx\\CLIUtils\\CLIUtils::postUpdateCmd"],
     "post-root-package-install": ["mx\\CLIUtils\\CLIUtils::postRootPackageInstall"],
     "post-package-install": ["mx\\CLIUtils\\CLIUtils::postPackageInstall"],
-    "post-package-update": ["mx\\CLIUtils\\CLIUtils::postPackageUpdate"]
+    "post-package-update": ["mx\\CLIUtils\\CLIUtils::postPackageUpdate"],
+    "update autoload": "composer dump-autoload"
   }
 
 }
