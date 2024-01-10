@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "adjai/backender": "0.0.108"
+    "adjai/backender": "0.0.109"
   },
   "autoload": {
     "psr-4": {
