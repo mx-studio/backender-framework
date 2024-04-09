@@ -7,3 +7,4 @@
 /config.production.php
 /config.development.php
 *.log
+*.zip
