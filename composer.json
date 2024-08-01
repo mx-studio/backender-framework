@@ -1,7 +1,7 @@
 {
   "name": "adjai/backender-framework",
   "description": "Simple backend framework",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "stable",
   "authors": [
@@ -23,9 +23,9 @@
     "create-entity": "mx\\CLIUtils\\CLIUtils::createEntityScript",
     "create-controller": "mx\\CLIUtils\\CLIUtils::createControllerScript",
     "create-model": "mx\\CLIUtils\\CLIUtils::createModelScript",
-    "post-root-package-install": ["mx\\CLIUtils\\CLIUtils::postInstallCmd"],
+    "post-create-project-cmd": ["mx\\CLIUtils\\CLIUtils::postInstallCmd"],
     "post-update-cmd": ["mx\\CLIUtils\\CLIUtils::postUpdateCmd"],
-    "post-create-project-cmd": ["mx\\CLIUtils\\CLIUtils::postRootPackageInstall"],
+    "post-root-package-install": ["mx\\CLIUtils\\CLIUtils::postRootPackageInstall"],
     "post-package-install": ["mx\\CLIUtils\\CLIUtils::postPackageInstall"],
     "post-package-update": ["mx\\CLIUtils\\CLIUtils::postPackageUpdate"],
     "update autoload": "composer dump-autoload"
